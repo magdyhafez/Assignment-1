@@ -1,4 +1,4 @@
 # Assignment-1
 The answer to the first c++ assignment ..Questions from c++ prime
-magdy
-Ali  
+1-) A class in C++ is a user defined type or data structure declared with keyword class that has data and functions (also called methods) as its members whose access is governed by the three access specifiers private, protected or public (by default access to members of a class is private). A class (declared with keyword class) in C++ differs from a structure (declared with keyword struct) as by default, members are private in a class while they are public in a structure. The private members are not accessible outside the class; they can be accessed only through methods of the class. The public members form an interface to the class and are accessible outside the class. Instances of these data types are known as objects and can contain member variables, constants, member functions, and overloaded operators defined by the programmer.
+
