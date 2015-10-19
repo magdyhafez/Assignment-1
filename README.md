@@ -25,3 +25,12 @@ uncommon in practice. We will always make all data fields private in this book.
 The Product class is so simple that it is not obvious what benefit we gain
 
 Data hiding : Encapsualtion asure data hiding . As the private in a class is the part of code which is hidden and only the ceator of the class access it.
+
+3)To a programmer, an object is a region of storage with associated semantics.
+To a designer, an object is any identifiable component in the problem domain.
+In the following diagram recRoomTV is an object of class TV.
+After a declaration such as int i;, i is said to be an object of type int. In
+OO/C++, an object is usually an instance of a class.
+
+
+4)
