@@ -33,4 +33,11 @@ After a declaration such as int i;, i is said to be an object of type int. In
 OO/C++, an object is usually an instance of a class.
 
 
-4)
+4)Member Functions
+Member functions can (and should) be used to interact with data contained within user defined types. User defined types provide flexibility in the "divide and conquer" scheme in program writing. In other words, one programmer can write a user defined type and guarantee an interface. Another programmer can write the main program with that expected interface. The two pieces are put together and compiled for usage. User defined types provide encapsulation defined in the Object Oriented Programming (OOP) paradigm.
+
+Within classes, to protect the data members, the programmer can define functions to perform the operations on those data members. Member functions and functions are names used interchangeably in reference to classes. Function prototypes are declared within the class definition. These prototypes can take the form of non-class functions as well as class suitable prototypes. Functions can be declared and defined within the class definition. However, most functions can have very large definitions and make the class very unreadable. Therefore it is possible to define the function outside of the class definition using the scope resolution operator "::". This scope resolution operator allows a programmer to define the functions somewhere else. This can allow the programmer to provide a header file .h defining the class and a .obj file built from the compiled .cpp file which contains the function definitions. This can hide the implementation and prevent tampering. The user would have to define every function again to change the implementation. Functions within classes can access and modify (unless the function is constant) data members without declaring them, because the data members are already declared in the class.
+
+But class data memebres are the parameters which are defined by the class. These members may be implicit or explicit , public or private.
+
+
