@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1445451565 source:d:\c++ projects\class bank account\main.cpp
+	<iostream>
+	<bankaccount.h>
+
+1445451819 d:\c++ projects\class bank account\include\bankaccount.h
+	<iostream>
+
