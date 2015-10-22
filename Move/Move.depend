@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1445536735 source:d:\c++ projects\move\main.cpp
-	<iostream>
-	<Move.h>
-
-1445536632 d:\c++ projects\move\include\move.h
-	<iostream>
-
